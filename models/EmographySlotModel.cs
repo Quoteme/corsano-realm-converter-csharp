@@ -1,11 +1,9 @@
 // Please note : [Backlink] properties and default values are not represented
 // in the schema and thus will not be part of the generated models
 
-using System;
-using System.Collections.Generic;
 using Realms;
 
-namespace MyProject.Models
+namespace corsano_realm_converter_csharp.models
 {
     public class EmographySlotModel : RealmObject
     {
