@@ -9,4 +9,12 @@
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="models" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Realm" Version="10.21.0" />
+    </ItemGroup>
+
 </Project>
